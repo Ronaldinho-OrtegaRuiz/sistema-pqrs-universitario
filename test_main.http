@@ -1,0 +1,120 @@
+# Test your FastAPI endpoints
+
+### Health Check
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+### Health Check Endpoint
+GET http://127.0.0.1:8000/health
+Accept: application/json
+
+###
+
+### Webhook Verification (GET)
+# Este endpoint es usado por WhatsApp para verificar el webhook
+GET http://127.0.0.1:8000/webhook?hub.mode=subscribe&hub.verify_token=TU_TOKEN&hub.challenge=CHALLENGE_STRING
+Accept: application/json
+
+###
+
+### Enviar mensaje de texto
+# Números disponibles (puedes usar cualquier formato, se normaliza automáticamente):
+# - Número de prueba: +1 555 195 2341 o 15551952341
+# - Número personal: +57 324 6537538 o 573246537538
+POST http://127.0.0.1:8000/send-message
+Content-Type: application/json
+
+{
+  "to": "+1 555 195 2341",
+  "message": "Hola, este es un mensaje de prueba"
+}
+
+###
+
+### Enviar mensaje a número personal
+POST http://127.0.0.1:8000/send-message
+Content-Type: application/json
+
+{
+  "to": "+57 324 6537538",
+  "message": "Hola desde el bot!"
+}
+
+###
+
+### Enviar mensaje de plantilla (template)
+# Números disponibles (puedes usar cualquier formato, se normaliza automáticamente):
+# - Número de prueba: +1 555 195 2341 o 15551952341
+# - Número personal: +57 324 6537538 o 573246537538
+POST http://127.0.0.1:8000/send-template
+Content-Type: application/json
+
+{
+  "to": "+1 555 195 2341",
+  "template_name": "hello_world",
+  "language_code": "en_US"
+}
+
+###
+
+### Enviar template a número personal
+POST http://127.0.0.1:8000/send-template
+Content-Type: application/json
+
+{
+  "to": "+57 324 6537538",
+  "template_name": "hello_world",
+  "language_code": "en_US"
+}
+
+###
+
+### Webhook (POST) - Recibe mensajes de WhatsApp
+# Este endpoint recibe los webhooks de WhatsApp
+POST http://127.0.0.1:8000/webhook
+Content-Type: application/json
+X-Hub-Signature-256: sha256=signature_hash
+
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "PHONE_NUMBER",
+              "phone_number_id": "PHONE_NUMBER_ID"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "User Name"
+                },
+                "wa_id": "PHONE_NUMBER"
+              }
+            ],
+            "messages": [
+              {
+                "from": "PHONE_NUMBER",
+                "id": "MESSAGE_ID",
+                "timestamp": "1234567890",
+                "text": {
+                  "body": "Hola"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+###
