@@ -2,17 +2,22 @@
  * Utilidades para procesar y transformar datos de PQRS
  */
 import type { PQRS, DepartmentChartData, TemporalChartData, PQRSStats } from "@/types/pqrs";
-import pqrsData from "@/data/pqrs-data.json";
 
 /**
- * Obtiene todas las PQRS desde el archivo JSON
- * En producción, esto debería hacer una llamada a la API
+ * Obtiene todas las PQRS desde el archivo pqrs_data.json
+ * Lee desde public/pqrs_data.json (que se sincroniza con el archivo de la raíz)
  */
 export async function getPQRSData(): Promise<PQRS[]> {
   try {
-    // En desarrollo, usar datos estáticos
-    // En producción, reemplazar con llamada a API: const response = await fetch("/api/pqrs");
-    return pqrsData as PQRS[];
+    // Leer desde public/pqrs_data.json usando fetch
+    const response = await fetch("/pqrs_data.json");
+    
+    if (!response.ok) {
+      throw new Error(`Error al cargar PQRS: ${response.status} ${response.statusText}`);
+    }
+    
+    const data = await response.json();
+    return data as PQRS[];
   } catch (error) {
     console.error("Error al cargar datos de PQRS:", error);
     return [];

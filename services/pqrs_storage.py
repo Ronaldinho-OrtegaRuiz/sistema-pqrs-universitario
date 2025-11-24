@@ -41,6 +41,18 @@ class PQRSStorage:
         try:
             with open(self.file_path, 'w', encoding='utf-8') as f:
                 json.dump(pqrs_list, f, indent=2, ensure_ascii=False)
+            
+            # Copiar también a dashboard/public para que el dashboard lo lea
+            dashboard_public_path = os.path.join("dashboard", "public", "pqrs_data.json")
+            if os.path.exists("dashboard"):
+                try:
+                    # Asegurar que el directorio existe
+                    os.makedirs(os.path.dirname(dashboard_public_path), exist_ok=True)
+                    with open(dashboard_public_path, 'w', encoding='utf-8') as f:
+                        json.dump(pqrs_list, f, indent=2, ensure_ascii=False)
+                    logger.debug(f"PQRS copiadas a {dashboard_public_path}")
+                except Exception as e:
+                    logger.warning(f"No se pudo copiar a dashboard/public: {e}")
         except Exception as e:
             logger.error(f"Error al guardar PQRS: {e}")
     

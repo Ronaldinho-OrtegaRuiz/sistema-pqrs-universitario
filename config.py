@@ -4,6 +4,7 @@ Configuración del bot de WhatsApp
 import os
 from typing import Optional
 from pydantic_settings import BaseSettings
+from pydantic import ConfigDict
 
 
 class Settings(BaseSettings):
@@ -39,9 +40,11 @@ class Settings(BaseSettings):
     # Número de prueba: +1 555 195 2341 (normalizado: 15551952341)
     # Número personal: +57 324 6537538 (normalizado: 573246537538)
     
-    class Config:
-        env_file = ".env"
-        case_sensitive = False
+    model_config = ConfigDict(
+        env_file=".env",
+        case_sensitive=False,
+        extra="ignore"  # Ignora variables extra en el .env que no están definidas aquí
+    )
 
 
 settings = Settings()
