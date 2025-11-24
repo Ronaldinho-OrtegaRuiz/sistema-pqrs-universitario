@@ -1,0 +1,583 @@
+[
+  {
+    "pqrs_id": "PQRS-TEC-20241115143022",
+    "departamento": "Tecnología",
+    "codigo_departamento": "TEC",
+    "descripcion": "El sistema de registro académico está muy lento y se cae constantemente durante las horas pico",
+    "fecha": "2024-11-15T14:30:22",
+    "telefono": "+573001234567",
+    "enviado_telegram": true,
+    "fecha_registro": "2024-11-15T14:30:22",
+    "fecha_envio_telegram": "2024-11-15T14:35:00"
+  },
+  {
+    "pqrs_id": "PQRS-ASE-20241115152010",
+    "departamento": "Aseo y Mantenimiento",
+    "codigo_departamento": "ASE",
+    "descripcion": "Los baños del segundo piso están en mal estado, falta papel higiénico y las puertas no cierran",
+    "fecha": "2024-11-15T15:20:10",
+    "telefono": "+573001234568",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-15T15:20:10"
+  },
+  {
+    "pqrs_id": "PQRS-EDU-20241116100845",
+    "departamento": "Educativo",
+    "codigo_departamento": "EDU",
+    "descripcion": "Necesito información sobre el proceso de homologación de materias para el próximo semestre",
+    "fecha": "2024-11-16T10:08:45",
+    "telefono": "+573001234569",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-16T10:08:45"
+  },
+  {
+    "pqrs_id": "PQRS-TEC-20241116114530",
+    "departamento": "Tecnología",
+    "codigo_departamento": "TEC",
+    "descripcion": "No puedo acceder al WiFi de la universidad desde mi laptop, me dice que la contraseña es incorrecta",
+    "fecha": "2024-11-16T11:45:30",
+    "telefono": "+573001234570",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-16T11:45:30"
+  },
+  {
+    "pqrs_id": "PQRS-ADM-20241116143015",
+    "departamento": "Administrativo",
+    "codigo_departamento": "ADM",
+    "descripcion": "Tengo problemas para realizar el pago de matrícula en línea, el sistema no procesa mi tarjeta",
+    "fecha": "2024-11-16T14:30:15",
+    "telefono": "+573001234571",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-16T14:30:15"
+  },
+  {
+    "pqrs_id": "PQRS-BIB-20241117100920",
+    "departamento": "Biblioteca",
+    "codigo_departamento": "BIB",
+    "descripcion": "Los libros que necesito para mi tesis no están disponibles y no hay fecha de devolución",
+    "fecha": "2024-11-17T10:09:20",
+    "telefono": "+573001234572",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-17T10:09:20"
+  },
+  {
+    "pqrs_id": "PQRS-SEG-20241117123045",
+    "departamento": "Seguridad",
+    "codigo_departamento": "SEG",
+    "descripcion": "Hay personas ajenas a la universidad ingresando sin identificación en el edificio principal",
+    "fecha": "2024-11-17T12:30:45",
+    "telefono": "+573001234573",
+    "enviado_telegram": true,
+    "fecha_registro": "2024-11-17T12:30:45",
+    "fecha_envio_telegram": "2024-11-17T12:35:00"
+  },
+  {
+    "pqrs_id": "PQRS-TEC-20241117145000",
+    "departamento": "Tecnología",
+    "codigo_departamento": "TEC",
+    "descripcion": "El sistema de registro académico está muy lento y se cae constantemente durante las horas pico",
+    "fecha": "2024-11-17T14:50:00",
+    "telefono": "+573001234574",
+    "enviado_telegram": true,
+    "fecha_registro": "2024-11-17T14:50:00",
+    "fecha_envio_telegram": "2024-11-17T14:55:00"
+  },
+  {
+    "pqrs_id": "PQRS-ASE-20241118101130",
+    "departamento": "Aseo y Mantenimiento",
+    "codigo_departamento": "ASE",
+    "descripcion": "Los baños del segundo piso están en mal estado, falta papel higiénico y las puertas no cierran",
+    "fecha": "2024-11-18T10:11:30",
+    "telefono": "+573001234575",
+    "enviado_telegram": true,
+    "fecha_registro": "2024-11-18T10:11:30",
+    "fecha_envio_telegram": "2024-11-18T10:16:00"
+  },
+  {
+    "pqrs_id": "PQRS-EDU-20241118133020",
+    "departamento": "Educativo",
+    "codigo_departamento": "EDU",
+    "descripcion": "El profesor no está publicando las calificaciones en el tiempo acordado",
+    "fecha": "2024-11-18T13:30:20",
+    "telefono": "+573001234576",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-18T13:30:20"
+  },
+  {
+    "pqrs_id": "PQRS-ADM-20241119100815",
+    "departamento": "Administrativo",
+    "codigo_departamento": "ADM",
+    "descripcion": "Necesito un certificado de estudios pero el proceso tarda más de 10 días hábiles",
+    "fecha": "2024-11-19T10:08:15",
+    "telefono": "+573001234577",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-19T10:08:15"
+  },
+  {
+    "pqrs_id": "PQRS-BIB-20241119124550",
+    "departamento": "Biblioteca",
+    "codigo_departamento": "BIB",
+    "descripcion": "El área de estudio está muy ruidosa, necesitan más control de silencio",
+    "fecha": "2024-11-19T12:45:50",
+    "telefono": "+573001234578",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-19T12:45:50"
+  },
+  {
+    "pqrs_id": "PQRS-TEC-20241120100940",
+    "departamento": "Tecnología",
+    "codigo_departamento": "TEC",
+    "descripcion": "Los proyectores de las aulas no funcionan correctamente, la imagen se ve borrosa",
+    "fecha": "2024-11-20T10:09:40",
+    "telefono": "+573001234579",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-20T10:09:40"
+  },
+  {
+    "pqrs_id": "PQRS-ASE-20241120133025",
+    "departamento": "Aseo y Mantenimiento",
+    "codigo_departamento": "ASE",
+    "descripcion": "Hay goteras en el techo del aula 301, está afectando las clases",
+    "fecha": "2024-11-20T13:30:25",
+    "telefono": "+573001234580",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-20T13:30:25"
+  },
+  {
+    "pqrs_id": "PQRS-SEG-20241121100800",
+    "departamento": "Seguridad",
+    "codigo_departamento": "SEG",
+    "descripcion": "El sistema de acceso con tarjeta no funciona en la entrada principal",
+    "fecha": "2024-11-21T10:08:00",
+    "telefono": "+573001234581",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-21T10:08:00"
+  },
+  {
+    "pqrs_id": "PQRS-EDU-20241121143010",
+    "departamento": "Educativo",
+    "codigo_departamento": "EDU",
+    "descripcion": "Necesito información sobre el proceso de homologación de materias para el próximo semestre",
+    "fecha": "2024-11-21T14:30:10",
+    "telefono": "+573001234582",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-21T14:30:10"
+  },
+  {
+    "pqrs_id": "PQRS-OTR-20241122100915",
+    "departamento": "Otro",
+    "codigo_departamento": "OTR",
+    "descripcion": "Sugerencia: sería bueno tener más áreas verdes y espacios de descanso en el campus",
+    "fecha": "2024-11-22T10:09:15",
+    "telefono": "+573001234583",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-22T10:09:15"
+  },
+  {
+    "pqrs_id": "PQRS-TEC-20241122124530",
+    "departamento": "Tecnología",
+    "codigo_departamento": "TEC",
+    "descripcion": "El sistema de registro académico está muy lento y se cae constantemente durante las horas pico",
+    "fecha": "2024-11-22T12:45:30",
+    "telefono": "+573001234584",
+    "enviado_telegram": true,
+    "fecha_registro": "2024-11-22T12:45:30",
+    "fecha_envio_telegram": "2024-11-22T12:50:00"
+  },
+  {
+    "pqrs_id": "PQRS-ADM-20241122143045",
+    "departamento": "Administrativo",
+    "codigo_departamento": "ADM",
+    "descripcion": "Tengo problemas para realizar el pago de matrícula en línea, el sistema no procesa mi tarjeta",
+    "fecha": "2024-11-22T14:30:45",
+    "telefono": "+573001234585",
+    "enviado_telegram": true,
+    "fecha_registro": "2024-11-22T14:30:45",
+    "fecha_envio_telegram": "2024-11-22T14:35:00"
+  },
+  {
+    "pqrs_id": "PQRS-BIB-20241123100820",
+    "departamento": "Biblioteca",
+    "codigo_departamento": "BIB",
+    "descripcion": "Los computadores de la sala de cómputo están muy lentos y algunos no encienden",
+    "fecha": "2024-11-23T10:08:20",
+    "telefono": "+573001234586",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-11-23T10:08:20"
+  },
+  {
+    "pqrs_id": "PQRS-ASE-20241123133010",
+    "departamento": "Aseo y Mantenimiento",
+    "codigo_departamento": "ASE",
+    "descripcion": "Los baños del segundo piso están en mal estado, falta papel higiénico y las puertas no cierran",
+    "fecha": "2024-11-23T13:30:10",
+    "telefono": "+573001234587",
+    "enviado_telegram": true,
+    "fecha_registro": "2024-11-23T13:30:10",
+    "fecha_envio_telegram": "2024-11-23T13:35:00"
+  },
+  {
+    "pqrs_id": "PQRS-EDU-20241015093000",
+    "departamento": "Educativo",
+    "codigo_departamento": "EDU",
+    "descripcion": "El horario de clases está mal asignado, tengo dos materias al mismo tiempo",
+    "fecha": "2024-10-15T09:30:00",
+    "telefono": "+573001234588",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-15T09:30:00"
+  },
+  {
+    "pqrs_id": "PQRS-TEC-20241015113045",
+    "departamento": "Tecnología",
+    "codigo_departamento": "TEC",
+    "descripcion": "La plataforma virtual no carga los materiales de clase",
+    "fecha": "2024-10-15T11:30:45",
+    "telefono": "+573001234589",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-15T11:30:45"
+  },
+  {
+    "pqrs_id": "PQRS-ADM-20241016100830",
+    "departamento": "Administrativo",
+    "codigo_departamento": "ADM",
+    "descripcion": "Necesito una copia de mi acta de grado pero el proceso es muy complicado",
+    "fecha": "2024-10-16T10:08:30",
+    "telefono": "+573001234590",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-16T10:08:30"
+  },
+  {
+    "pqrs_id": "PQRS-BIB-20241016143020",
+    "departamento": "Biblioteca",
+    "codigo_departamento": "BIB",
+    "descripcion": "Los libros que necesito para mi tesis no están disponibles y no hay fecha de devolución",
+    "fecha": "2024-10-16T14:30:20",
+    "telefono": "+573001234591",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-16T14:30:20"
+  },
+  {
+    "pqrs_id": "PQRS-SEG-20241017100915",
+    "departamento": "Seguridad",
+    "codigo_departamento": "SEG",
+    "descripcion": "Hay personas ajenas a la universidad ingresando sin identificación en el edificio principal",
+    "fecha": "2024-10-17T10:09:15",
+    "telefono": "+573001234592",
+    "enviado_telegram": true,
+    "fecha_registro": "2024-10-17T10:09:15",
+    "fecha_envio_telegram": "2024-10-17T10:14:00"
+  },
+  {
+    "pqrs_id": "PQRS-ASE-20241017133050",
+    "departamento": "Aseo y Mantenimiento",
+    "codigo_departamento": "ASE",
+    "descripcion": "El aire acondicionado del aula 205 no funciona, hace mucho calor",
+    "fecha": "2024-10-17T13:30:50",
+    "telefono": "+573001234593",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-17T13:30:50"
+  },
+  {
+    "pqrs_id": "PQRS-EDU-20241018100845",
+    "departamento": "Educativo",
+    "codigo_departamento": "EDU",
+    "descripcion": "El profesor no está publicando las calificaciones en el tiempo acordado",
+    "fecha": "2024-10-18T10:08:45",
+    "telefono": "+573001234594",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-18T10:08:45"
+  },
+  {
+    "pqrs_id": "PQRS-TEC-20241018143030",
+    "departamento": "Tecnología",
+    "codigo_departamento": "TEC",
+    "descripcion": "No puedo acceder al WiFi de la universidad desde mi laptop, me dice que la contraseña es incorrecta",
+    "fecha": "2024-10-18T14:30:30",
+    "telefono": "+573001234595",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-18T14:30:30"
+  },
+  {
+    "pqrs_id": "PQRS-ADM-20241019100920",
+    "departamento": "Administrativo",
+    "codigo_departamento": "ADM",
+    "descripcion": "Tengo problemas para realizar el pago de matrícula en línea, el sistema no procesa mi tarjeta",
+    "fecha": "2024-10-19T10:09:20",
+    "telefono": "+573001234596",
+    "enviado_telegram": true,
+    "fecha_registro": "2024-10-19T10:09:20",
+    "fecha_envio_telegram": "2024-10-19T10:14:00"
+  },
+  {
+    "pqrs_id": "PQRS-BIB-20241019133015",
+    "departamento": "Biblioteca",
+    "codigo_departamento": "BIB",
+    "descripcion": "El área de estudio está muy ruidosa, necesitan más control de silencio",
+    "fecha": "2024-10-19T13:30:15",
+    "telefono": "+573001234597",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-19T13:30:15"
+  },
+  {
+    "pqrs_id": "PQRS-OTR-20241020100800",
+    "departamento": "Otro",
+    "codigo_departamento": "OTR",
+    "descripcion": "Sugerencia: sería bueno tener más áreas verdes y espacios de descanso en el campus",
+    "fecha": "2024-10-20T10:08:00",
+    "telefono": "+573001234598",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-20T10:08:00"
+  },
+  {
+    "pqrs_id": "PQRS-SEG-20241020143045",
+    "departamento": "Seguridad",
+    "codigo_departamento": "SEG",
+    "descripcion": "El sistema de acceso con tarjeta no funciona en la entrada principal",
+    "fecha": "2024-10-20T14:30:45",
+    "telefono": "+573001234599",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-20T14:30:45"
+  },
+  {
+    "pqrs_id": "PQRS-ASE-20241021100930",
+    "departamento": "Aseo y Mantenimiento",
+    "codigo_departamento": "ASE",
+    "descripcion": "Hay goteras en el techo del aula 301, está afectando las clases",
+    "fecha": "2024-10-21T10:09:30",
+    "telefono": "+573001234600",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-21T10:09:30"
+  },
+  {
+    "pqrs_id": "PQRS-EDU-20241021133020",
+    "departamento": "Educativo",
+    "codigo_departamento": "EDU",
+    "descripcion": "Necesito información sobre el proceso de homologación de materias para el próximo semestre",
+    "fecha": "2024-10-21T13:30:20",
+    "telefono": "+573001234601",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-21T13:30:20"
+  },
+  {
+    "pqrs_id": "PQRS-TEC-20241022100815",
+    "departamento": "Tecnología",
+    "codigo_departamento": "TEC",
+    "descripcion": "Los proyectores de las aulas no funcionan correctamente, la imagen se ve borrosa",
+    "fecha": "2024-10-22T10:08:15",
+    "telefono": "+573001234602",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-22T10:08:15"
+  },
+  {
+    "pqrs_id": "PQRS-ADM-20241022143000",
+    "departamento": "Administrativo",
+    "codigo_departamento": "ADM",
+    "descripcion": "Necesito un certificado de estudios pero el proceso tarda más de 10 días hábiles",
+    "fecha": "2024-10-22T14:30:00",
+    "telefono": "+573001234603",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-22T14:30:00"
+  },
+  {
+    "pqrs_id": "PQRS-BIB-20241023100945",
+    "departamento": "Biblioteca",
+    "codigo_departamento": "BIB",
+    "descripcion": "Los computadores de la sala de cómputo están muy lentos y algunos no encienden",
+    "fecha": "2024-10-23T10:09:45",
+    "telefono": "+573001234604",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-23T10:09:45"
+  },
+  {
+    "pqrs_id": "PQRS-SEG-20241023133030",
+    "departamento": "Seguridad",
+    "codigo_departamento": "SEG",
+    "descripcion": "Hay personas ajenas a la universidad ingresando sin identificación en el edificio principal",
+    "fecha": "2024-10-23T13:30:30",
+    "telefono": "+573001234605",
+    "enviado_telegram": true,
+    "fecha_registro": "2024-10-23T13:30:30",
+    "fecha_envio_telegram": "2024-10-23T13:35:00"
+  },
+  {
+    "pqrs_id": "PQRS-ASE-20241024100830",
+    "departamento": "Aseo y Mantenimiento",
+    "codigo_departamento": "ASE",
+    "descripcion": "El aire acondicionado del aula 205 no funciona, hace mucho calor",
+    "fecha": "2024-10-24T10:08:30",
+    "telefono": "+573001234606",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-24T10:08:30"
+  },
+  {
+    "pqrs_id": "PQRS-EDU-20241024143015",
+    "departamento": "Educativo",
+    "codigo_departamento": "EDU",
+    "descripcion": "El horario de clases está mal asignado, tengo dos materias al mismo tiempo",
+    "fecha": "2024-10-24T14:30:15",
+    "telefono": "+573001234607",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-10-24T14:30:15"
+  },
+  {
+    "pqrs_id": "PQRS-TEC-20240915093000",
+    "departamento": "Tecnología",
+    "codigo_departamento": "TEC",
+    "descripcion": "La plataforma virtual no carga los materiales de clase",
+    "fecha": "2024-09-15T09:30:00",
+    "telefono": "+573001234608",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-15T09:30:00"
+  },
+  {
+    "pqrs_id": "PQRS-ADM-20240915113045",
+    "departamento": "Administrativo",
+    "codigo_departamento": "ADM",
+    "descripcion": "Necesito una copia de mi acta de grado pero el proceso es muy complicado",
+    "fecha": "2024-09-15T11:30:45",
+    "telefono": "+573001234609",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-15T11:30:45"
+  },
+  {
+    "pqrs_id": "PQRS-BIB-20240916100830",
+    "departamento": "Biblioteca",
+    "codigo_departamento": "BIB",
+    "descripcion": "Los libros que necesito para mi tesis no están disponibles y no hay fecha de devolución",
+    "fecha": "2024-09-16T10:08:30",
+    "telefono": "+573001234610",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-16T10:08:30"
+  },
+  {
+    "pqrs_id": "PQRS-SEG-20240916143020",
+    "departamento": "Seguridad",
+    "codigo_departamento": "SEG",
+    "descripcion": "El sistema de acceso con tarjeta no funciona en la entrada principal",
+    "fecha": "2024-09-16T14:30:20",
+    "telefono": "+573001234611",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-16T14:30:20"
+  },
+  {
+    "pqrs_id": "PQRS-ASE-20240917100915",
+    "departamento": "Aseo y Mantenimiento",
+    "codigo_departamento": "ASE",
+    "descripcion": "El aire acondicionado del aula 205 no funciona, hace mucho calor",
+    "fecha": "2024-09-17T10:09:15",
+    "telefono": "+573001234612",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-17T10:09:15"
+  },
+  {
+    "pqrs_id": "PQRS-EDU-20240917133050",
+    "departamento": "Educativo",
+    "codigo_departamento": "EDU",
+    "descripcion": "El profesor no está publicando las calificaciones en el tiempo acordado",
+    "fecha": "2024-09-17T13:30:50",
+    "telefono": "+573001234613",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-17T13:30:50"
+  },
+  {
+    "pqrs_id": "PQRS-TEC-20240918100845",
+    "departamento": "Tecnología",
+    "codigo_departamento": "TEC",
+    "descripcion": "No puedo acceder al WiFi de la universidad desde mi laptop, me dice que la contraseña es incorrecta",
+    "fecha": "2024-09-18T10:08:45",
+    "telefono": "+573001234614",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-18T10:08:45"
+  },
+  {
+    "pqrs_id": "PQRS-ADM-20240918143030",
+    "departamento": "Administrativo",
+    "codigo_departamento": "ADM",
+    "descripcion": "Tengo problemas para realizar el pago de matrícula en línea, el sistema no procesa mi tarjeta",
+    "fecha": "2024-09-18T14:30:30",
+    "telefono": "+573001234615",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-18T14:30:30"
+  },
+  {
+    "pqrs_id": "PQRS-BIB-20240919100920",
+    "departamento": "Biblioteca",
+    "codigo_departamento": "BIB",
+    "descripcion": "El área de estudio está muy ruidosa, necesitan más control de silencio",
+    "fecha": "2024-09-19T10:09:20",
+    "telefono": "+573001234616",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-19T10:09:20"
+  },
+  {
+    "pqrs_id": "PQRS-OTR-20240919133015",
+    "departamento": "Otro",
+    "codigo_departamento": "OTR",
+    "descripcion": "Sugerencia: sería bueno tener más áreas verdes y espacios de descanso en el campus",
+    "fecha": "2024-09-19T13:30:15",
+    "telefono": "+573001234617",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-19T13:30:15"
+  },
+  {
+    "pqrs_id": "PQRS-SEG-20240920100800",
+    "departamento": "Seguridad",
+    "codigo_departamento": "SEG",
+    "descripcion": "Hay personas ajenas a la universidad ingresando sin identificación en el edificio principal",
+    "fecha": "2024-09-20T10:08:00",
+    "telefono": "+573001234618",
+    "enviado_telegram": true,
+    "fecha_registro": "2024-09-20T10:08:00",
+    "fecha_envio_telegram": "2024-09-20T10:13:00"
+  },
+  {
+    "pqrs_id": "PQRS-ASE-20240920143045",
+    "departamento": "Aseo y Mantenimiento",
+    "codigo_departamento": "ASE",
+    "descripcion": "Hay goteras en el techo del aula 301, está afectando las clases",
+    "fecha": "2024-09-20T14:30:45",
+    "telefono": "+573001234619",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-20T14:30:45"
+  },
+  {
+    "pqrs_id": "PQRS-EDU-20240921100930",
+    "departamento": "Educativo",
+    "codigo_departamento": "EDU",
+    "descripcion": "Necesito información sobre el proceso de homologación de materias para el próximo semestre",
+    "fecha": "2024-09-21T10:09:30",
+    "telefono": "+573001234620",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-21T10:09:30"
+  },
+  {
+    "pqrs_id": "PQRS-TEC-20240921133020",
+    "departamento": "Tecnología",
+    "codigo_departamento": "TEC",
+    "descripcion": "Los proyectores de las aulas no funcionan correctamente, la imagen se ve borrosa",
+    "fecha": "2024-09-21T13:30:20",
+    "telefono": "+573001234621",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-21T13:30:20"
+  },
+  {
+    "pqrs_id": "PQRS-ADM-20240922100815",
+    "departamento": "Administrativo",
+    "codigo_departamento": "ADM",
+    "descripcion": "Necesito un certificado de estudios pero el proceso tarda más de 10 días hábiles",
+    "fecha": "2024-09-22T10:08:15",
+    "telefono": "+573001234622",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-22T10:08:15"
+  },
+  {
+    "pqrs_id": "PQRS-BIB-20240922143000",
+    "departamento": "Biblioteca",
+    "codigo_departamento": "BIB",
+    "descripcion": "Los computadores de la sala de cómputo están muy lentos y algunos no encienden",
+    "fecha": "2024-09-22T14:30:00",
+    "telefono": "+573001234623",
+    "enviado_telegram": false,
+    "fecha_registro": "2024-09-22T14:30:00"
+  }
+]
